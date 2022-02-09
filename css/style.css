@@ -1,0 +1,105 @@
+.navbar-nav{
+    font-size: 25px;
+}
+
+nav{
+    border-top: 5px solid #393185;
+    border-bottom: 5px solid #393185;
+}
+
+
+section{
+    font-family: Arial, sans-serif;
+    padding: 20px 0;
+}
+
+section.products_1{
+    /* background-color: #96ec98; */
+    background-color: whitesmoke;
+    
+}
+
+section .heading_wraper{
+    padding: 20px 0;
+}
+
+section .heading_wraper .title{
+    padding: 20px 0;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    color: #393185;
+}
+
+section .heading_wraper .description{
+    font-size: 22px;
+    color: #060133;
+    text-align: justify;
+}
+
+section .body_wraper{
+    /* padding: 10px 0; */
+    background-color: transparent;
+}
+
+
+
+/* section .body_wraper .product_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 100px;
+    grid-column-gap: 50px;
+} */
+
+section .body_wraper .product_list .product {
+    position: initial;
+    /* height: 550px; */
+    /* box-shadow: 5px 10px #e6e6e6; */
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+section .body_wraper .product_list .product .title{
+    position: absolute;
+    font-size: 22px;
+    color: #ce443f;
+    font-weight: 900;
+    bottom: 0;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin: 0 0;
+}
+
+section .body_wraper .product_list .image{
+    position: relative;
+    height: max-content;
+}
+
+section .body_wraper .product_list .image img{
+    width: 100%;
+    height: 500px;
+    object-fit: fill;
+    /* background-color: smokewhite; */
+}
+
+section .body_wraper .product_list .description{
+    margin: auto 30px auto 0;
+    position: relative;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+section .body_wraper .product_list .description .details{
+    font-size: 28px;
+    text-align: justify;
+}
+
+
+section .body_wraper .product_list .description .specification{
+    padding-top : 50px;
+    font-size: 22px;
+    line-height: 4rem;
+    word-spacing: 0.1px;
+    letter-spacing: 0.01rem;
+    color: #7e1212;
+}
